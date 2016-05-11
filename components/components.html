@@ -1,0 +1,31 @@
+<components>
+
+    <!-- to create links to genre pages -->
+    <script id="genreLinks" type="text/x-handlebars-template">
+        <ul class="genre_list">
+            {{#each this}}
+            <li class="genreLink" data-genre="{{this}}">{{this}}</li>
+            {{/each}}
+        </ul>
+
+    </script>
+
+    <!-- takes an array of book objects, create links for them -->
+    <script id="musicHomeLinks" type="text/x-handlebars-template">
+        <ul class="music_list">
+            {{#each this}}
+            <li class="musicLink" data-id="{{this.id}}">{{this.song}}</li>
+            {{/each}}
+        </ul>
+
+    </script>
+
+    <!-- detail view of a books data -->
+    <script id="musicInfo" type="text/x-handlebars-template">
+        <div>
+            <div class="musicTitle">{{song}}</div>
+            <div class="musicAuthor">{{artist}}</div>
+            <div class="musicPubdate">{{album}}</div>
+        </div>
+    </script>
+</components>

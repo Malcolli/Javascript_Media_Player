@@ -1,0 +1,139 @@
+#search{
+    width: 200px;
+    background-color: #999;
+    float: left;
+    margin: 10px;
+    padding: 5px
+}
+body {
+    background-image: url("img/background.jpg");
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    float: left;
+}
+
+.genreLink {
+    cursor: pointer;
+}
+
+.musicLink{
+    cursor: pointer;
+}
+
+#topbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#header {
+    background: none;
+    background-color: #7d110c;
+    padding-bottom: 11px;
+}
+
+#content{
+    float: right;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+}
+#menu {
+
+    height: 59px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+    background-color: #7d110c;
+
+    width: 100%;
+
+}
+#menu ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+    float: left;
+}
+#menu li {
+    display: inline;
+    padding: 20px;
+}
+#menu a {
+    text-decoration: none;
+    color: #f8f8ff;
+    padding: 8px 8px 8px 8px;
+}
+#menu a:hover {
+    color: #0d3349 ;
+    background-color: #FFF;
+}
+body
+{
+    background: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#search{
+    width: 300px;
+    float: left;
+    margin: 10px;
+    padding: 5px
+}
+#playButton{
+    cursor: pointer;
+}
+#newSound {
+    float: right;
+    cursor: pointer;
+}
+#content{
+
+    background-color: whitesmoke;
+    width: 500px;
+    height: 100%;
+}
+#browse {
+    cursor: pointer;
+}
+#info {
+    float: right;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+    padding-right: 30px;
+    background-color: #99cc99;
+}
+#soundList
+{
+background-color: antiquewhite;
+    height: 100%;
+    width: 200px;
+    cursor: pointer;
+    float: right;
+
+}
+ol
+{
+
+
+}
+li
+{
+    margin: 10px 0;
+}
+#artist
+{
+    background-color: antiquewhite;
+}
+#mediap
+{
+    background-color: antiquewhite;
+}

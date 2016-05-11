@@ -1,0 +1,232 @@
+{
+
+  "music": [
+    {
+      "id":1,
+      "song": "One More Time",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "genre": "electronic"
+    },
+    {
+      "id":2,
+      "song": "3005",
+      "artist": "Childish Gambino",
+      "album": "Because of the Internet",
+      "genre": "hiphop"
+    },
+    {
+      "id":3,
+      "song": "Snack of the Snake",
+      "artist": "Sound Horizon",
+      "album": "Bravely Default",
+      "genre": "orchestra"
+    },
+    {
+      "id":4,
+      "song": "His Name is",
+      "artist": "Sound Horizon",
+      "album": "Bravely Default",
+      "genre": "orchestra"
+    },
+    {
+      "id":5,
+      "song": "You're My Hope",
+      "artist": "Sound Horizon",
+      "album": "Bravely Default",
+      "genre": "orchestra"
+    },
+    {
+      "id":6,
+      "song": "The Varagrant of Love",
+      "artist": "Sound Horizon",
+      "album": "Bravely Default",
+      "genre": "orchestra"
+    },
+    {
+      "id":7,
+      "song": "Evil Flight",
+      "artist": "Sound Horizon",
+      "album": "Bravely Default",
+      "genre": "orchestra"
+    },
+    {
+      "id":8,
+      "song": "Snack of the Snake",
+      "artist": "Sound Horizon",
+      "album": "Bravely Default",
+      "genre": "orchestra"
+    },
+    {
+      "id":9,
+      "song": "Rollercoaster of Love",
+      "artist": "The Ohio Players",
+      "album": "Fire",
+      "genre": "funk"
+    },
+    {
+      "id":10,
+      "song": "I Got You",
+      "artist": "James Brown",
+      "album": "Top 20 Greatest Hits",
+      "genre": "soul"
+    },
+    {
+      "id":11,
+      "song": "This is a man's World",
+      "artist": "James Brown",
+      "album": "Top 20 Greatest Hits",
+      "genre": "soul"
+    },
+    {
+      "id":12,
+      "song": "SuperBad",
+      "artist": "James Brown",
+      "album": "Top 20 Greatest Hits",
+      "genre": "soul"
+    },
+    {
+      "id":13,
+      "song": "Please, Please Please!!!",
+      "artist": "James Brown",
+      "album": "Top 20 Greatest Hits",
+      "genre": "soul"
+    },
+    {
+      "id":14,
+      "song": "Love Machine",
+      "artist": "James Brown",
+      "album": "Top 20 Greatest Hits",
+      "genre": "soul"
+    },
+    {
+      "id":15,
+      "song": "The Worst Guys",
+      "artist": "Childish Gambino",
+      "album": "Because of the Internet",
+      "genre": "hiphop"
+    },
+    {
+      "id":16,
+      "song": "Telegraph Ave",
+      "artist": "Childish Gambino",
+      "album": "Because of the Internet",
+      "genre": "hiphop"
+    },
+    {
+      "id":17,
+      "song": "WorldStar",
+      "artist": "Childish Gambino",
+      "album": "Because of the Internet",
+      "genre": "hiphop"
+    },
+    {
+      "id":18,
+      "song": "Sweatpants",
+      "artist": "Childish Gambino",
+      "album": "Because of the Internet",
+      "genre": "hiphop"
+    },
+    {
+      "id":19,
+      "song": "Party",
+      "artist": "Childish Gambino",
+      "album": "Because of the Internet",
+      "genre": "hiphop"
+    },
+    {
+      "id":20,
+      "song": "Flash Light",
+      "artist": "Parliament Funkadelic",
+      "album": "Funkentelechy Vs. the Placebo Syndrome",
+      "genre": "funk"
+    },
+    {
+      "id":21,
+      "song": "Voyager",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "genre": "electronic"
+    },
+    {
+      "id":22,
+      "song": "Quo",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "genre": "electronic"
+    },
+    {
+      "id":23,
+      "song": "Harder, Better, Faster, Stronger",
+      "artist": "Dr. Flee",
+      "album": "Discovery",
+      "genre": "electronic"
+    },
+    {
+      "id":4,
+      "song": "Night Vision",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "genre": "electronic"
+    },
+    {
+      "id":24,
+      "song": "High Life",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "genre": "electronic"
+    },
+    {
+      "id":25,
+      "song": "Superheros",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "genre": "electronic"
+    },
+    {
+      "id":26,
+      "song": "Short Circuit",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "genre": "electronic"
+    },
+    {
+      "id":27,
+      "song": "Something About Us",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "genre": "electronic"
+    },
+    {
+      "id":28,
+      "song": "Digital Love",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "genre": "electronic"
+    },
+    {
+      "id":29,
+      "song": "Aerodynamic",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "genre": "electronic"
+    },
+    {
+      "id":30,
+      "song": "Greatest Dancer",
+      "artist": "Sister Sledge",
+      "album": "We Are Family",
+      "genre": "funk"
+    },
+    {
+      "id":31,
+      "song": "Xxpolsive",
+      "artist": "Dr. Dre",
+      "album": "West Coastin",
+      "genre": "rap"
+    }
+
+  ],
+  "genres": ["electronic", "hiphop", "orchestra","funk", "soul", "rap"]
+
+}

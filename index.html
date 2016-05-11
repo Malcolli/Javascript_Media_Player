@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Faas Shop</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="menu">
+    <ul>
+        <ul><li>Fass Shop &nbsp;<a href="index.html">Home</a></li>
+        <li><a href="genre.html">Genres</a></li>
+            <li><a href="album.html">Albums</a></li>
+            <li><a href="artist.html">Artist</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><input id="txtSearch"/><input id="btnSearch" type="button" value="search"/></li>
+            </ul>
+        </ul>
+
+        </ul></div>
+<style>
+    #menu {
+
+        height: 59px;
+        font-size: 16px;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 3px 2px 3px #333333;
+        background-color: #7d110c;
+
+        width: 100%;
+
+    }
+    #menu ul {
+        height: auto;
+        padding: 8px 0px;
+        margin: 0px;
+        float: left;
+    }
+    #menu li {
+        display: inline;
+        padding: 20px;
+    }
+    #menu a {
+        text-decoration: none;
+        color: #f8f8ff;
+        padding: 8px 8px 8px 8px;
+    }
+    #menu a:hover {
+        color: #0d3349 ;
+        background-color: #FFF;
+    }
+    body
+    {
+        background: url("img/background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+    #search{
+        width: 200px;
+        float: right;
+        margin: 10px;
+        padding: 5px
+    }
+    #playButton{
+        cursor: pointer;
+    }
+    #newSound {
+        float: right;
+        cursor: pointer;
+    }
+
+
+</style>
+
+
+
+<center><img src="img/note.jpg"><div id="nowPlaying">Now Playing:- XXPLOSIVE -</div>
+    <audio id="myAudio" controls id="player" src="sound/explosive.mp3" autoplay></audio>
+<div id="progress">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        <input type="range" id="scrubber" min="0.0" max="100.0" value="0" />
+    </div></center>
+
+    <div id="soundList">
+        <h1>Featured Top 30 Songs</h1>
+        <h6>Click on these songs to play!!</h6>
+        <ol>
+        <li><span id="snack">Snack of the Snake</span></li>
+        <li> <span id="evil">Evil Flight</span></li>
+        <li> <span id="love">The Vargant of Love</span></li>
+        <li> <span id="hope">You're My Hope</span></li>
+        <li> <span id="five">3005</span></li>
+        <li>  <span id="worst">The Worst Guys</span></li>
+        <li>  <span id="ave">Telegraph Ave</span></li>
+        <li>  <span id="star">World Star</span></li>
+        <li>  <span id="pants">SweatPants</span></li>
+        <li> <span id="party">The Party</span></li>
+        <li> <span id="one">One More time</span></li>
+        <li> <span id="coaster">Rollercoaster of Love</span></li>
+        <li> <span id="good">I Got You</span></li>
+        <li>  <span id="world">This is a Man's World</span></li>
+        <li>  <span id="please">Please Please Please</span></li>
+        <li>  <span id="machine">Love Machine</span></li>
+        <li>  <span id="light">Flash Light</span></li>
+        <li>  <span id="voyager">Voyager</span></li>
+        <li>  <span id="quo">Quo</span></li>
+        <li>  <span id="stronger">Harder Better Faster Stronger</span></li>
+        <li>  <span id="night">Night Vision</span></li>
+        <li>  <span id="high">High Life</span></li>
+        <li>  <span id="hero">Superheros</span></li>
+        <li>  <span id="short">Short Circut</span></li>
+        <li>  <span id="us">Something About Us</span></li>
+        <li> <span id="digital">Digital Love</span></li>
+        <li> <span id="dynamic">Aerodynamic</span></li>
+        <li>  <span id="dancer">Greatest Dancer</span></li>
+        <li>  <span id="name">His Name is</span></li><li>
+            <span id="explosive">XXplosive</span></li>
+
+</ol>
+
+
+    </div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+
+</div>
+
+
+
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/handlebars/dist/handlebars.min.js"></script>
+<script src="bower_components/underscore/underscore.min.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
